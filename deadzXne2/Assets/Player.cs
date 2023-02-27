@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
 
 			PlayerAnim.SetTrigger("Jog");
 
-			PlayerAnim.ResetTrigger("idle");
+			PlayerAnim.ResetTrigger("Stand");
 
 			Joging = true;
 
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
 
 			PlayerAnim.ResetTrigger("Jog");
 
-			PlayerAnim.SetTrigger("idle");
+			PlayerAnim.SetTrigger("Stand");
 
 			Joging = false;
 
@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
 
 			PlayerAnim.SetTrigger("Jogback");
 
-			PlayerAnim.ResetTrigger("idle");
+			PlayerAnim.ResetTrigger("Stand");
 
 			//steps1.SetActive(true);
 
@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
 
 			PlayerAnim.ResetTrigger("Jogback");
 
-			PlayerAnim.SetTrigger("idle");
+			PlayerAnim.SetTrigger("Stand");
 
 			//steps1.SetActive(false);
 
